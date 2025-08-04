@@ -91,7 +91,7 @@
       },
       {
         "tab": "API ドキュメント",
-        "openapi": "https://api.gabse.ai/openapi-redoc.json"
+        "openapi": "https://api.gbase.ai/openapi-redoc.json"
       }
     ]
   },
@@ -103,13 +103,13 @@
     "links": [
       {
         "label": "Support",
-        "href": "https://gabse.ai/contact"
+        "href": "https://gbase.ai/contact"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://admin.gabse.ai"
+      "href": "https://admin.gbase.ai"
     }
   },
   "footer": {
