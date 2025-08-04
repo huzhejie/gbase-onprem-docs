@@ -1,92 +1,99 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "GBase On-prem docs",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/logo.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "ようこそ",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "簡単な紹介",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "introduction"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "マニュアル",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "マニュアル",
             "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "user-manual/quickstart",
+              {
+                "group": "マイボット",
+                "pages": [
+                  {
+                    "group": "ボット作成",
+                    "pages": [
+                      "user-manual/welcome/mybot/bot-creation/website",
+                      "user-manual/welcome/mybot/bot-creation/gitbook",
+                      "user-manual/welcome/mybot/bot-creation/sitemap",
+                      "user-manual/welcome/mybot/bot-creation/document",
+                      "user-manual/welcome/mybot/bot-creation/faq-list",
+                      "user-manual/welcome/mybot/bot-creation/integration"
+                    ]
+                  },
+                  "user-manual/welcome/mybot/tool-list",
+                  {
+                    "group": "ワークショップ",
+                    "pages": [
+                      "user-manual/welcome/mybot/workshop/dashboard",
+                      "user-manual/welcome/mybot/workshop/online-visitor",
+                      "user-manual/welcome/mybot/workshop/chat"
+                    ]
+                  },
+                  {
+                    "group": "カスタマイズ",
+                    "pages": [
+                      "user-manual/welcome/mybot/customize/widget-embed",
+                      "user-manual/welcome/mybot/customize/chat-history"
+                    ]
+                  },
+                  {
+                    "group": "設定",
+                    "pages": [
+                      "user-manual/welcome/mybot/setting/settings-general",
+                      "user-manual/welcome/mybot/setting/settings-details",
+                      "user-manual/welcome/mybot/setting/canvas",
+                      "user-manual/welcome/mybot/setting/prompt",
+                      "user-manual/welcome/mybot/setting/bot-delete"
+                    ]
+                  },
+                  {
+                    "group": "トレーニング",
+                    "pages": [
+                      "user-manual/welcome/mybot/training/data-dictionary",
+                      "user-manual/welcome/mybot/training/related-knowledge-base"
+                    ]
+                  }
+                ]
+              },
+              "user-manual/welcome/knowledge-base",
+              "user-manual/welcome/key",
+              "user-manual/welcome/manual",
+              "user-manual/welcome/collaboration-space",
+              "user-manual/welcome/access-management",
+              "user-manual/welcome/setting-language",
+              "user-manual/welcome/login-user",
+              "user-manual/welcome/api"
             ]
           }
         ]
+      },
+      {
+        "tab": "API ドキュメント",
+        "openapi": "https://api.GBase On-prem.ai/openapi-redoc.json"
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -96,32 +103,18 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "https://GBase On-prem.ai/contact"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://admin.GBase On-prem.ai"
     }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "github": "https://github.com/sparticleinc"
     }
   }
 }
